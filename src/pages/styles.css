@@ -1,0 +1,55 @@
+/* Reset default styles for the nav element */
+nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Style the left section of the navigation bar */
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the logo and company name */
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  /* Style the right section of the navigation bar */
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the action buttons */
+  .topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Style the profile icon */
+  .profile-icon img {
+    height: 30px;
+    border-radius: 50%;
+  }
+  

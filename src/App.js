@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Convert from './pages/Convert';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav class="topnav">
+    <div class="left-section">
+      <a class="logo" href="#"><img src="logo.png" alt="Logo" /></a>
+      <a class="company-name" href="#">Company Name</a>
+    </div>
+    <div class="right-section">
+      <a href="#">Action 1</a>
+      <a href="#">Action 2</a>
+      <a href="#">Action 3</a>
+      <a class="profile-icon" href="#"><img src="profile-icon.png" alt="Profile Icon" /></a>
+    </div>
+  </nav>
+      <Convert />
     </div>
   );
 }
